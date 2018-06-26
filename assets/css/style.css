@@ -1,0 +1,68 @@
+body {
+    position: relative;
+    background-image: url("../images/scroll2.png");
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    margin-top: 2%;
+}
+
+.fancy {
+    font-family: "Permanent Marker";
+    font-size: 48px;
+}
+
+.inside-scroll {
+    margin-top: 4%;
+}
+
+.grid h2 {
+    font-family: "Boogaloo";
+    font-size: 36px;
+}
+
+.btn {
+    min-width: 200px;
+    background: #F3EAC5;
+    border: none;
+    font-family: "Boogaloo";
+    font-size: 20px;
+}
+
+.btn-class {
+    display: none;
+}
+
+.result-class {
+    display: block;
+}
+/*
+#qstn {
+    font-family: "Boogaloo";
+    font-size: 32px;
+}
+
+/*
+.buttons {
+    margin-top: 30px;
+}
+
+#btn0, #btn1, #btn2, #btn3 {
+    font-family: "Boogaloo";
+    background-color: #778897;
+    width: 250px;
+    font-size: 20px;
+    color: #fff;
+    border: 1px solid #1d3c6a;
+    border-radius: 50px;
+    margin: 10px 40px 10px 0px;
+    padding: 10px 10px;
+}
+*/
+footer {
+    margin-top: 9%;
+}
