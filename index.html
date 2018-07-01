@@ -18,27 +18,38 @@
     </div>
     <div class="container">
         <div class="grid">
-            <h2 class="inside-scroll" id="timeRem">Time Remaining:</h2>
+            <h2 class="insideScroll" id="timeRem">Time Remaining:</h2>
             <!-- <hr style="margin-bottom: 20px; width:80%"> -->
-            <h2 id="qstn">Q1</h2>
-            <div class="btn-class">
+            <h2 id="qstn"></h2>
+            <div class="btnClass">
                 <div class="btn-group-vertical">
-                    <button type="button" class="btn btn-warning" id="btn0">1</button>
-                    <button type="button" class="btn btn-warning" id="btn1">2</button>
-                    <button type="button" class="btn btn-warning" id="btn2">3</button>
-                    <button type="button" class="btn btn-warning" id="btn3">4</button>
+                    <button type="button" class="btn btn-warning" id="btn0"></button>
+                    <button type="button" class="btn btn-warning" id="btn1"></button>
+                    <button type="button" class="btn btn-warning" id="btn2"></button>
+                    <button type="button" class="btn btn-warning" id="btn3"></button>
                 </div>
             </div>
-            <div class="result-class">
+            <div class="resultClass">
                 <div>
-                    <h2>You got the wrong answer!</h2>
-                    <h2>The right answer is:  </h2>
+                    <h2 id="result"></h2>
+                    <img id="imgResult">
                 </div>
+            </div>
+            <div class="startClass">
+                <button type="button" class="btn-warning" id="startBtn">Start Game</button>
+            </div>
+            <div class="endClass">
+                <h2>All done!  Here is how you did:</h2>
+                <h4 id="AnsCorr"></h4>
+                <h4 id="AnsInc"></h4>
+                <h4 id="AnsTime"></h4>
+                <button type="button" class="btn-warning" id="restartBtn">Restart Game</button>
+            </div>    
         </div>
     </div>
-    <footer>
+    <div class="footer">
         <p id="progress" class="fancy">Question x of y.</p>
-    </footer>
+    </div>
 
     <!--  Script  -->
     <script type="text/javascript" src="assets/javascript/app.js"></script>
