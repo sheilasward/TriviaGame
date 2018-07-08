@@ -24,6 +24,7 @@ body {
 .grid h2 {
     font-family: "Boogaloo";
     font-size: 36px;
+    padding: 0 80px;
 }
 
 .btn {
@@ -34,16 +35,17 @@ body {
     font-size: 20px;
 }
 
-#startBtn {
-    margin-top: 120px;
+#startBtn, #restartBtn {
     width: 200px;
     padding: 10px;
     font-family: "Boogaloo";
     font-size: 32px;
+    margin-top: 20px;
 }
 
 .startClass {
     display: block;
+    margin-top: 100px;
 }
 
 .btnClass {
@@ -55,7 +57,10 @@ body {
 }
 
 .endClass {
+    margin-top: 20px;
     display: none;
+    font-family: "Boogaloo";
+    font-size: 22px;
 }
 
 #progress {
@@ -70,5 +75,6 @@ body {
 .footer {
     position: fixed;
     bottom: 5px;
-    left: 800px;
+    left: 50%;
+    margin-left: -200px;
 }
