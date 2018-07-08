@@ -105,7 +105,7 @@ $(document).ready(function() {
                     "King_Solomon_wisdom.jpg",
                     "Samson_strength.jpg",
                     "Samson_hair.jpg",
-                    "Tribes_of_Israel.jpg",
+                    "Tribes_of_Israel.JPG",
                     "Naboth_vineyard.jpg",
                     "Jezebel.jpg",
                     "Elijah_fiery_chariot.jpg",
